@@ -2,27 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Luckiest Guy';
     text-align: center;
     margin-top: 8px;
-   
 }
 
-body {
-    background-image: urk("https://imgur.com/zmPEAqg.jpg");
+body{
+    background-color: #beb8b8;
 }
 
 h1{
     font-size: 48px;
+    font-family: 'Staatliches', serif;
+    color: hotpink;
 }
 
 h3{
     font-size: 32px;
+    font-family: 'Staatliches', serif;
+    color: hotpink;
 }
 
 a{
     position: absolute;
-    top: 96px;
+    top: 100px;
     font-size: 32px;
     left: 50%;
     transform: translate(-50%);
@@ -41,11 +43,9 @@ a:hover{
     width: 600px;
     height: 520px;
     top: 144px;
-    background: rgb(87, 168, 255);
+    background: #573dc7;
     border: 2px solid black;
     padding: 8px;
-    box-shadow: 5px 10px #888888;
-
 }
 
 .game table tr td{
@@ -59,17 +59,17 @@ a:hover{
 
 .reset{
     position: absolute;
-    top: 512px;
+    top: 525px;
     left: 50%;
     transform: translate(-50%);
     width: 100px;
     height: 30px;
     text-align: center;
+    font-family: 'Fredoka One', serif;
     padding: 4.8px;
-    border: 1px solid black;
-    background: #ffffff;
+    border: 2px solid #1b1a1a;
+    background: #e0d96d;
     cursor: pointer;
-    box-shadow: 6px 5px #888888;
     transition: .5s;
 }
 
